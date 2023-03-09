@@ -81,10 +81,38 @@
 	}
 }
 
+@media screen and (max-width:1280px) {
+	.garvit-gupta {
+		width: 450px
+	}
+	.testimonial {
+		padding: 50px;
+		padding-top: 75px
+	}
+	.static {
+		margin-top: 150px
+	}
+}
+
+@media screen and (max-width:1230px) {
+	.garvit-gupta {
+		width: 400px
+	}
+}
 
 @media screen and (max-width:1180px) {
-	.text {
+	.garvit-gupta {
+		width: 350px;
+		left: 72px
+	}
+	.about-text {
 		font-size: 14px
+	}
+	.cycle-bar {
+		display: none
+	}
+	.run-bar {
+		margin-left: 0
 	}
 	.page {
 		padding: 72px;
@@ -97,8 +125,78 @@
 }
 
 @media screen and (max-width:1023px) {
+	.left-test {
+		margin-top: 50px;
+		float: left;
+		position: relative;
+		width: 100%;
+		margin-right: 0
+	}
+	.right-test {
+		margin-top: 50px;
+		float: left;
+		position: relative;
+		width: 100%
+	}
+	.person {
+		left: 50%;
+		-webkit-transform: translate(-50%)
+	}
+	#message-received-parent {
+		margin: auto;
+		width: 100%;
+		padding: 0;
+		padding-top: 100px;
+		padding-bottom: 100px
+	}
+	.message-received-child {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 400px;
+		background-image: url(../images/icons/sent.png);
+		text-align: center;
+		background-position-y: center;
+		background-repeat: no-repeat;
+		padding-left: 45px;
+		font-size: 16px;
+		line-height: 20px;
+		background-size: auto 22px;
+		opacity: .6;
+		color: #000;
+		background-position-y: top;
+		padding: 0;
+		padding-top: 75px;
+		background-position-x: center
+	}
 	.page {
 		overflow: hidden
+	}
+	.polylion-mobile {
+		display: initial;
+		margin-left: auto;
+		margin-right: auto;
+		float: none
+	}
+	#garvit-polymer {
+		display: none
+	}
+	.polylion {
+		display: none
+	}
+	.poly-loading {
+		display: none
+	}
+	#contactMe {}
+	.garvit-gupta {
+		width: 500px;
+		margin-left: 50%;
+		left: -250px;
+		display: none
+	}
+	.contact-form {
+		float: none;
+		margin-left: auto;
+		margin-right: auto
 	}
 	.copyright {
 		text-align: center;
@@ -147,13 +245,71 @@
 		padding-bottom: 0;
 		padding-top: 20px
 	}
-	.text {
+	.showcase-box {
+		width: 46%;
+		padding-bottom: 40%;
+		margin: 8%
+	}
+	.showcase-box-1 {
+		margin-left: 0;
+		margin-top: 0;
+		margin-right: 0
+	}
+	.showcase-box-2 {
+		margin-top: 0;
+		margin-right: 0
+	}
+	.showcase-box-3 {
+		margin-left: 0;
+		margin-top: 0;
+		margin-right: 0
+	}
+	.showcase-box-4 {
+		margin-top: 0;
+		margin-right: 0
+	}
+	.showcase-box-5 {
+		margin-left: 0;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0
+	}
+	.about-text {
 		font-size: 15px
+	}
+	.polylion {
+		height: 250px
+	}
+	#garvit-polymer {
+		height: 250px;
+		width: 275px
 	}
 }
 
 @media screen and (max-width:896px) {
-	.text {
+	#garvit-polymer {
+		height: 300px;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		float: none
+	}
+	.polylion {
+		height: 300px;
+		margin-left: 50%;
+		left: -164px;
+		position: absolute
+	}
+	.cycle-bar {
+		display: none
+	}
+	.run-bar {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px
+	}
+	.about-text {
 		width: 100%;
 		margin-top: 0;
 		height: auto;
@@ -162,9 +318,35 @@
 	#aboutMe {
 		height: auto
 	}
+	.social-container {
+		position: relative;
+		margin-top: 50px;
+		height: 42px;
+		margin-left: 50%;
+		left: -99px
+	}
 }
 
 @media screen and (max-width:826px) {
+	.contact-form {
+		width: 100%;
+		text-align: center
+	}
+	.label {
+		display: none
+	}
+	.mobile-label {
+		display: block
+	}
+	.form-fields {
+		width: 100%;
+		max-width: 445px;
+		margin: auto;
+		float: none
+	}
+	.textareaHighlight {
+		width: 100%
+	}
 	.bg-editable {
 		height: 250px
 	}
@@ -174,6 +356,15 @@
 }
 
 @media screen and (max-width:620px) {
+	.showcase-box {
+		width: 100%;
+		padding-bottom: 90%;
+		margin: 0;
+		margin-bottom: 10%
+	}
+	.showcase-box-5 {
+		margin-bottom: 0
+	}
 	.nav-text {
 		display: none
 	}
@@ -196,6 +387,9 @@
 	.page::before {
 		top: 50px
 	}
+	#contactMe {
+		background-image: none
+	}
 	.bg-editable {
 		height: 250px
 	}
@@ -208,6 +402,7 @@
 	.navigation {
 		display: none
 	}
+	.about-text {}
 	.page {
 		padding-left: 25px;
 		padding-right: 25px
@@ -218,18 +413,35 @@
 	.lede-background {
 		height: 275px
 	}
-
 }
 
 @media screen and (max-width:384px) {
+	#garvit-polymer {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		text-align: center;
+		width: 100%;
+		height: auto
+	}
+	.polylion {
+		margin-left: auto;
+		left: auto;
+		position: relative;
+		width: 100%;
+		height: auto
+	}
 	.bg-editable {
 		height: 275px
 	}
 	.lede-background {
 		height: 275px
 	}
-	.homePage {
+	.home-page {
 		height: 500px
+	}
+	.cover {
+		height: 100%
 	}
 }
 
@@ -239,5 +451,77 @@
 	}
 	.lede-background {
 		height: 300px
+	}
+}
+
+@media screen and (max-width:645px) and (min-width:620px) {
+	.checkimage {
+		margin: auto
+	}
+	.checkimage-app {
+		width: 47.5%;
+		float: left
+	}
+	.checkimage-web {
+		width: 47.5%;
+		float: right
+	}
+	.checkimage-job {
+		width: 47.5%;
+		float: left;
+		margin-top: 4%
+	}
+	.checkimage-feedback {
+		width: 47.5%;
+		float: right;
+		margin-top: 4%
+	}
+}
+
+@media screen and (max-width:545px) and (min-width:512px) {
+	.checkimage {
+		margin: auto
+	}
+	.checkimage-app {
+		width: 47.5%;
+		float: left
+	}
+	.checkimage-web {
+		width: 47.5%;
+		float: right
+	}
+	.checkimage-job {
+		width: 47.5%;
+		float: left;
+		margin-top: 4%
+	}
+	.checkimage-feedback {
+		width: 47.5%;
+		float: right;
+		margin-top: 4%
+	}
+}
+
+@media screen and (max-width:495px) {
+	.checkimage {
+		margin: auto
+	}
+	.checkimage-app {
+		width: 47.5%;
+		float: left
+	}
+	.checkimage-web {
+		width: 47.5%;
+		float: right
+	}
+	.checkimage-job {
+		width: 47.5%;
+		float: left;
+		margin-top: 4%
+	}
+	.checkimage-feedback {
+		width: 47.5%;
+		float: right;
+		margin-top: 4%
 	}
 }
