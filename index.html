@@ -11,25 +11,20 @@
       <link href="./css/work.css" rel="stylesheet" type="text/css">
       <link href="./css/responsive.css" rel="stylesheet" type="text/css">
       <link href="./css/animate.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.cdnfonts.com/css/nitti" rel="stylesheet">
       <title>Ervin Gan</title>
       <meta name="apple-mobile-web-app-title" content="Ervin Gan">
       <meta property="og:title" content="Ervin Gan">
       <meta name="twitter:card" content="summary_large_image">
    </head>
-   <body class="pace-done pace-done" cz-shortcut-listen="true">
-      <div class="pace  pace-inactive pace-inactive">
-         <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
-            <div class="pace-progress-inner"></div>
-         </div>
-         <div class="pace-activity"></div>
-      </div>
+   <body cz-shortcut-listen="true">
       <div class="navigation">
          <a class="navlink" href="#home">
             <div class="nav-dot animated fadeInRight">
                <div class="nav-text">Home</div>
             </div>
          </a>
-         <a class="navlink" href="#aboutAnchor">
+         <a class="navlink" href="#aboutMe">
             <div class="nav-dot animated fadeInRight">
                <div class="nav-text">About me</div>
             </div>
@@ -40,95 +35,111 @@
             </div>
          </a>
       </div>
-      <a style="height:0px;width:0px;" name="home"></a>
-      <div class="home-page" id="home">
-         <div style="z-index:100000" class="introduction">
-            <div class="name" style="text-shadow: rgba(0, 0, 0, 0.35) 5px 5px 25px;">ERVIN GAN</div>
-            <div class="designation">Aspiring Software Engineer</div>
+      <a name="home"></a>
+      <div class="homePage" id="home">
+         <div class="introduction">
+            <div class="name">ERVIN GAN</div>
+            <div class="designation">Software Engineer</div>
+            <p>Finance guy turned software engineer currently working on the most powerful 
+               interaction-capable drone in the world</p>
          </div>
-         <div id="particles-js" style="height: 100%; display: initial;">
-            <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1065" height="1734"></canvas>
+         <div id="particles-js">
+            <canvas class="particles-js-canvas-el" width="1065" height="1734"></canvas>
          </div>
-         <a href="#aboutAnchor">
-            <div class="down-arrow"></div>
-         </a>
+         <a href="#aboutMe"><div class="down-arrow"></div></a>
       </div>
-      <div class="section">
-         <a id="aboutAnchor" name="about">
-         </a>
-      </div>
-      <a id="aboutAnchor" name="about">
-      </a>
-      <div class="page" id="aboutMe" style="min-height:300px;">
-         </a>
-         <div class="about-text">
-            <a id="aboutAnchor" name="about">
-               <img class="profile" src="../images/profile.png" alt="Avatar">
-               <p class="" style="display: inline">Hello! After 5+ years of experience in the wealth management industry, I have decided to look for new challenges and learning opportunities in the technology sector. I am passionate about programming and I am a recent graduate from the Master of Computer and Information Technology from the</p>
-            </a>
-            <a class="*upenn" style="display: inline; text-decoration: none; color: #333" target="_blank" href="https://www.cis.upenn.edu/graduate/program-offerings/master-of-computer-and-information-technology/">University of Pennsylvania.</a>
-            <p class="" style="display: inline">Previously, I graduated with a Master of Science in Finance from the</p>
-            </a><a class="*upenn" style="display: inline; text-decoration: none; color: #333" target="_blank" href="https://www.unige.ch/gsem/en/programs/masters/wealth-management/">University of Geneva</a>
-            <p lass="" style="display: inline">and a Bachelor of Economics from the</p>
-            <a class="*upenn" style="display: inline; text-decoration: none; color: #333" target="_blank" href="https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/licence-L/licence-economie-KBTDQ2ZO.html">University of Pantheon Sorbonne,</a><a>  with exchange programs at UC Berkeley, the University of Glasgow and the Australian National University.</a>
-            <p></p>
-            <p class="" style="display: inline">My interests include social innovations, software development and blockchain technology. In my spare time, I enjoy learning and building new skills by challenging myself. I started competitive swimming in middle school and did it for 8 years, during which I had the chance to participate at the French junior national championships and university national championships in several countries.</p>
+      <!-- About me section -->
+      <div id="aboutMe">
+         <div class="profile-social">
+            <img class="profile" src="../images/profile.png" alt="Avatar"/>
             <div class="social-container">
-               <a style="float:left;width:42px;margin-left:30px;margin-right:10px;" target="_blank" href="https://www.linkedin.com/in/ervingan">
-                  <div class="social-icon social-linkedin animated fadeInRight" style="background-image:url('images/linkedin-svg.svg');background-size:23px"></div>
+               <a target="_blank" href="https://www.linkedin.com/in/ervingan">
+                  <div class="social-icon social-linkedin animated fadeInRight" 
+                  style="background-image:url('images/linkedin-svg.svg');
+                  background-size:23px"></div>
                </a>
-               <a style="float:left;width:42px;margin-right:10px;" target="_blank" href="https://github.com/ervgan">
-                  <div class="social-icon social-github animated fadeInRight" style="background-image:url('images/github-svg.svg');background-size:25px;"></div>
+               <a target="_blank" href="https://github.com/ervgan">
+                  <div class="social-icon social-github animated fadeInRight" 
+                  style="background-image:url('images/github-svg.svg');
+                  background-size:25px;"></div>
                </a>
             </div>
          </div>
+         <div class="about-text">
+               <p class="text">Hello there! I enjoy the pursuit of learning, solving complex problems, and mentoring others.
+                  I’m inquisitive by nature and I love challenging myself to acquire new skills. <br>&nbsp;<br>
+
+                  I am currently interning at a robotics startup as a software engineer. Preiously, I worked for 5+ years in 
+                  portfolio management, investment advisory and family office services. I value clarity, empathy, and humility above all else. These ideals guide my approach to problem solving 
+                  and life in general. <br>&nbsp;<br>
+
+                  Outside of work I enjoy swimming, surfing, skiing, hiking and travelling.
+               </p>
+               <div class="w-layout-grid bio-highlights">
+                  <div id="w-location" class="bio-highlight-square-1">
+                     <h6 class="grid-titles">Locations</h6>
+                     <div class="grid-paragraph">Zurich, CH<br>Geneva, CH</div>
+                  </div>
+                  <div id="w-experience" class="bio-highlight-square-2">
+                     <h6 class="grid-titles">Experience</h6>
+                     <div class="grid-paragraph">2 months, Tech <br>5 years, Finance</div>
+                  </div>
+                  <div id="w-studies" class="bio-highlight-square-3">
+                     <h6 class="grid-titles">Studies</h6>
+                     <div class="grid-paragraph">Master CS, Upenn <br>Msc Finance, Unige<br>Bachelor Econ, Sorbonne</div>
+                  </div>
+                  <div id="w-sports" class="bio-highlight-square-4">
+                     <h6 class="grid-titles">Sports</h6>
+                     <div class="grid-paragraph">Competitive Swimming:<br>French Junior Nationals, British Uni Games, Australian Uni Games</p> </div>
+                  </div>
+                  <div id="w-interests" class="bio-highlight-square-5">
+                     <h6 class="grid-titles">Interests</h6>
+                     <div class="grid-paragraph">Social Innovations<br>Tech<br>Minimalism<br>Nutrition</div>
+                  </div>
+                  <div id="w-spirit" class="bio-highlight-square-6">
+                     <h6 class="grid-titles">Spirit animal</h6>
+                     <div class="grid-paragraph">A curious turtle that codes</div>
+                  </div>
+               </div>
+         </div>
       </div>
-      </div>
-      </div>
-      </div>
-      </a>
-      <div class="section"><a id="lifeAnchor" name="life">
-         </a><a id="workAnchor" name="work">
-         </a>
-      </div>
-      <a id="workAnchor" name="work">
-      </a>
+      <!-- Work section -->
+      <a id="workAnchor" name="work"></a>
       <div class="page" id="work">
-         <a id="workAnchor" name="work">
-         </a>
-         <div class="clearfix" style="position:relative">
-            <a id="workAnchor" name="work">
-            </a>
+         <div class="clearfix">
             <div class="all-work" id="work-frame">
-               <a id="workAnchor" name="work">
-               </a>
                <div class="lede-parent">
-                  <a id="workAnchor" name="work">
+                  <div class="bg-editable">
+                     <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">React App</div>
+                     <div class="text-2-ed animated fadeInDown">Front-End Booking App</div>
+                     <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Wireframed, designed and built the front-end for a restaurant booking app with a focus on UX/UI practices<br><br>Built with React, CSS, Figma</div>
+                  </div>
+               <div class="lede-background" style="background-color:#495E56"></div>
+               <div class="lede-image-container">
+                  <div class="lede-image animated fadeIn" style="background-image:url(../images/Project5.gif)"></div>
+               </div>
+            </div>
+               <div class="lede-parent">
                      <div class="bg-editable">
                         <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">Search Engine</div>
                         <div class="text-2-ed animated fadeInDown">DHT-Based Search Engine</div>
-                        <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Peer-to-peer search engine running over a Chord Distributed Hash Table<br><br>Built with C++, ns-3, Docker
-                        </div>
+                        <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Peer-to-peer search engine running over 
+                           a Chord Distributed Hash Table<br><br>Built with C++, ns-3, Docker</div>
                      </div>
-                  </a>
-                  <div class="lede-background" style="background-color:#1b1d1e">
-                  </div>
+                  <div class="lede-background" style="background-color:#1b1d1e"></div>
                   <div class="lede-image-container">
                      <div class="lede-image animated fadeIn" style="background-image:url(../images/Project0.gif)"></div>
                   </div>
                </div>
                <div class="lede-parent">
-                  <a id="workAnchor" name="work">
                      <div class="bg-editable">
                         <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">Cryptocurrency</div>
                         <div class="text-2-ed animated fadeInDown">ETH-ALGO Exchange Server</div>
-                        <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Centralized exchange server to exchange ALGO and ETH<br><br>Built with Python, Flask, algosdk, web3
+                        <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Centralized exchange server to exchange 
+                           ALGO and ETH<br><br>Built with Python, Flask, algosdk, web3
                         </div>
                      </div>
-                  </a>
-                  <div class="lede-background" style="background-color:#263238"><a id="workAnchor" name="work">
-                     </a>
-                  </div>
+                  <div class="lede-background" style="background-color:#263238"><a id="workAnchor" name="work"></div>
                   <div class="lede-image-container">
                      <div class="lede-image animated fadeIn" style="background-image:url(../images/Project1.png)"></div>
                   </div>
@@ -137,8 +148,10 @@
                   <div class="bg-editable">
                      <div class="text-1-ed animated fadeInDown" style="color:#B2DFDB">React App</div>
                      <div class="text-2-ed animated fadeInDown">Trip Assist</div>
-                     <div class="text-3-ed animated fadeInDown" style="color:#B2DFDB">Full-stack web application providing recommendations of US cities to travel to given a set of user-input
-                        preferences (budget, distance, covid risk, etc)<br><br>Built with NodeJS/Express, JavaScript, React, Python, AWS/MySQL Workbench
+                     <div class="text-3-ed animated fadeInDown" style="color:#B2DFDB">Full-stack web application providing 
+                        recommendations of US cities to travel to given a set of user-input
+                        preferences (budget, distance, covid risk, etc)<br><br>Built with NodeJS/Express, React, Python, 
+                        AWS/MySQL Workbench
                      </div>
                   </div>
                   <div class="lede-background" style="background-color:#004D40">
@@ -157,7 +170,8 @@
                   <div class="bg-editable"> 
                      <div class="text-1-ed animated fadeInDown" style="color:#B3E5FC">Data Analysis</div>
                      <div class="text-2-ed animated fadeInDown">Philadelphia Parking Data Analysis</div>
-                     <div class="text-3-ed animated fadeInDown" style="color:#B3E5FC">Designed and implemented n-tier architecture to parse and analyze parking violation data from Open-
+                     <div class="text-3-ed animated fadeInDown" style="color:#B3E5FC">Designed and implemented n-tier 
+                        architecture to parse and analyze parking violation data from Open-
                         DataPhilly<br><br>Built with Java
                      </div>
                   </div>
@@ -170,7 +184,8 @@
                   <div class="bg-editable">
                      <div class="text-1-ed animated fadeInDown" style="color:#FFF8E1">Game</div>
                      <div class="text-2-ed animated fadeInDown">Neural Feedback</div>
-                     <div class="text-3-ed animated fadeInDown" style="color:#FFF8E1; font-weight:300">Neural feedback simulation aimed at teaching children with autism how to perform motor
+                     <div class="text-3-ed animated fadeInDown" style="color:#FFF8E1; font-weight:300">Neural feedback simulation 
+                        aimed at teaching children with autism how to perform motor
                         tasks correctly<br><br>Built with Java, Weka 3-8-3, Niftijio, Slick2D
                      </div>
                   </div>
@@ -189,8 +204,9 @@
                </a>
             </div>
          </div>
+         <hr style="border: none; border-bottom: 1px solid black;">
       </div>
-      <div class="copyright">© 2022 Ervin Gan</div>
+      <div class="copyright">© 2023 Ervin Gan</div>
       </div>
       <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
       <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
