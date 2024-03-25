@@ -4,10 +4,28 @@
   height: 550px;
 }
 
+@media (max-width: 1023px) {
+  .all-work {
+    height: 110%;
+  }
+}
+
+@media (max-width: 900px) {
+  .all-work {
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .all-work {
+    height: 80%;
+  }
+}
+
 .lede-parent {
 	width: 950px;
 	height: 500px;
-	position: relative;
+	position: relative !important;
 	margin-bottom: 30px
 }
 
@@ -231,6 +249,14 @@
 
 .swiper-navBtn::after{
   font-size: 18px !important;
+}
+
+.swiper-button-prev {
+  margin-left: -15px;
+}
+
+.swiper-button-next {
+  margin-right: -15px;
 }
 
 .swiper-navBtn:hover{
