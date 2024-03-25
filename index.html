@@ -13,6 +13,8 @@
   <link href="./css/responsive.css" rel="stylesheet" type="text/css">
   <link href="./css/animate.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.cdnfonts.com/css/nitti" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <title>Ervin Gan</title>
   <meta name="apple-mobile-web-app-title" content="Ervin Gan">
   <meta property="og:title" content="Ervin Gan">
@@ -37,8 +39,13 @@
         <div class="nav-text">Projects</div>
       </div>
     </a>
+    <a class="navlink" href="#startupAnchor">
+      <div class="nav-dot animated fadeInRight">
+        <div class="nav-text">Startups</div>
+      </div>
+    </a>
   </div>
-  <a name="home"></a>
+  <a id="home"></a>
   <div class="homePage" id="home">
     <div class="introduction">
       <div class="name">ERVIN GAN</div>
@@ -88,7 +95,7 @@
         </div>
         <div id="w-experience" class="bio-highlight-square-2">
           <h6 class="grid-titles">Experience</h6>
-          <div class="grid-paragraph">1+ year, Tech <br>5+ years, Finance</div>
+          <div class="grid-paragraph">1 year, Tech <br>5+ years, Finance</div>
         </div>
         <div id="w-studies" class="bio-highlight-square-3">
           <h6 class="grid-titles">Studies</h6>
@@ -103,7 +110,7 @@
         </div>
         <div id="w-interests" class="bio-highlight-square-5">
           <h6 class="grid-titles">Interests</h6>
-          <div class="grid-paragraph">Tech<br>Social Innovations<br>Mentoring<br>Volunteering<br>Human Performance</div>
+          <div class="grid-paragraph">Social Innovations<br>Tech<br>Minimalism<br>Nutrition</div>
         </div>
         <div id="w-spirit" class="bio-highlight-square-6">
           <h6 class="grid-titles">Spirit animal</h6>
@@ -113,124 +120,190 @@
     </div>
   </div>
   <!-- Work section -->
-  <a id="workAnchor" name="work"></a>
+  <a id="workAnchor"></a>
   <div class="page" id="work">
     <div class="clearfix">
       <div class="all-work" id="work-frame">
-        <div class="lede-parent">
-          <div class="bg-editable">
-            <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">React App</div>
-            <div class="text-2-ed animated fadeInDown">Front-End Booking App</div>
-            <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Wireframed, designed and built the
-              front-end for a restaurant booking app with a focus on UX/UI practices<br><br>Built with React, CSS, Figma
-            </div>
-          </div>
-          <div class="lede-background" style="background-color:#495E56">
-            <a href="https://github.com/ervgan/react_stuff/tree/main/little_lemon_website" target="_blank">
-              <div class="lede-button lb1 animated fadeInLeft">
-                <div class="lede-button-text">Repo</div>
-                <div class="lede-button-arrow"></div>
+        <div class="carousel-container swiper">
+          <div class="carousel-slider swiper-wrapper">
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:#FFF8E1">Game</div>
+                <div class="text-2-ed animated fadeInDown">Neural Feedback</div>
+                <div class="text-3-ed animated fadeInDown" style="color:#FFF8E1; font-weight:300">Neural feedback
+                  simulation
+                  aimed at teaching children with autism how to perform motor
+                  tasks correctly<br><br>Built with Java, Weka 3-8-3, Niftijio, Slick2D
+                </div>
               </div>
-            </a>
-          </div>
-          <div class="lede-image-container">
-            <div class="lede-image animated fadeIn" style="background-image:url(../images/Project5.gif)"></div>
-          </div>
-        </div>
-        <div class="lede-parent">
-          <div class="bg-editable">
-            <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">Search Engine</div>
-            <div class="text-2-ed animated fadeInDown">DHT-Based Search Engine</div>
-            <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Peer-to-peer search engine running over
-              a Chord Distributed Hash Table and a link-state routing protocol at the network layer<br><br>Built with
-              C++, ns-3, Docker</div>
-          </div>
-          <div class="lede-background" style="background-color:#1b1d1e">
-            <a href="https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf" target="_blank">
-              <div class="lede-button lb2 animated fadeInLeft">
-                <div class="lede-button-text">Chord Paper</div>
-                <div class="lede-button-arrow"></div>
+              <div class="lede-background" style="background-color: #FBBC05">
+                <a href="https://vimeo.com/351929429" target="_blank">
+                  <div class="lede-button lb4 animated fadeInLeft">
+                    <div class="lede-button-text">Demo</div>
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
-          <div class="lede-image-container">
-            <div class="lede-image animated fadeIn" style="background-image:url(../images/Project0.gif)"></div>
-          </div>
-        </div>
-        <div class="lede-parent">
-          <div class="bg-editable">
-            <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">Cryptocurrency</div>
-            <div class="text-2-ed animated fadeInDown">ETH-ALGO Exchange Server</div>
-            <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Centralized exchange server to exchange
-              ALGO and ETH<br><br>Built with Python, Flask, algosdk, web3
-            </div>
-          </div>
-          <div class="lede-background" style="background-color:#263238"><a id="workAnchor" name="work"></div>
-          <div class="lede-image-container">
-            <div class="lede-image animated fadeIn" style="background-image:url(../images/Project1.png)"></div>
-          </div>
-        </div>
-        <div class="lede-parent">
-          <div class="bg-editable">
-            <div class="text-1-ed animated fadeInDown" style="color:#B2DFDB">React App</div>
-            <div class="text-2-ed animated fadeInDown">Trip Assist</div>
-            <div class="text-3-ed animated fadeInDown" style="color:#B2DFDB">Full-stack web application providing
-              recommendations of US cities to travel to given a set of user-input
-              preferences (budget, distance, covid risk, etc)<br><br>Built with NodeJS/Express, React, Python,
-              AWS/MySQL Workbench
-            </div>
-          </div>
-          <div class="lede-background" style="background-color:#004D40">
-            <a href="https://vimeo.com/640518549" target="_blank">
-              <div class="lede-button lb3 animated fadeInLeft">
-                <div class="lede-button-text">Demo</div>
-                <div class="lede-button-arrow"></div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/Project4.png)"></div>
               </div>
-            </a>
-          </div>
-          <div class="lede-image-container">
-            <div class="lede-image animated fadeIn" style="background-image:url(../images/Project2.gif)"></div>
-          </div>
-        </div>
-        <div class="lede-parent">
-          <div class="bg-editable">
-            <div class="text-1-ed animated fadeInDown" style="color:#B3E5FC">Data Analysis</div>
-            <div class="text-2-ed animated fadeInDown">Philadelphia Parking Data Analysis</div>
-            <div class="text-3-ed animated fadeInDown" style="color:#B3E5FC">Designed and implemented n-tier
-              architecture to parse and analyze parking violation data from Open-
-              DataPhilly<br><br>Built with Java
             </div>
-          </div>
-          <div class="lede-background" style="background-color:#01579B;"></div>
-          <div class="lede-image-container">
-            <div class="lede-image animated fadeIn" style="background-image:url(../images/Project3.gif)"></div>
-          </div>
-        </div>
-        <div class="lede-parent">
-          <div class="bg-editable">
-            <div class="text-1-ed animated fadeInDown" style="color:#FFF8E1">Game</div>
-            <div class="text-2-ed animated fadeInDown">Neural Feedback</div>
-            <div class="text-3-ed animated fadeInDown" style="color:#FFF8E1; font-weight:300">Neural feedback simulation
-              aimed at teaching children with autism how to perform motor
-              tasks correctly<br><br>Built with Java, Weka 3-8-3, Niftijio, Slick2D
-            </div>
-          </div>
-          <div class="lede-background" style="background-color: #FBBC05">
-            <a href="https://vimeo.com/351929429" target="_blank">
-              <div class="lede-button lb4 animated fadeInLeft">
-                <div class="lede-button-text">Demo</div>
-                <div class="lede-button-arrow"></div>
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">React App</div>
+                <div class="text-2-ed animated fadeInDown">Front-End Booking App</div>
+                <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Wireframed, designed and built the
+                  front-end for a restaurant booking app with a focus on UX/UI practices<br><br>Built with React, CSS,
+                  Figma
+                </div>
               </div>
-            </a>
+              <div class="lede-background" style="background-color:#495E56">
+                <a href="https://github.com/ervgan/react_stuff/tree/main/little_lemon_website" target="_blank">
+                  <div class="lede-button lb1 animated fadeInLeft">
+                    <div class="lede-button-text">Repo</div>
+                  </div>
+                </a>
+              </div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/Project5.gif)"></div>
+              </div>
+            </div>
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">Search Engine</div>
+                <div class="text-2-ed animated fadeInDown">DHT-Based Search Engine</div>
+                <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Peer-to-peer search engine running over
+                  a Chord Distributed Hash Table and a link-state routing protocol at the network layer<br><br>Built
+                  with
+                  C++, ns-3, Docker</div>
+              </div>
+              <div class="lede-background" style="background-color:#1b1d1e">
+                <a href="https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf" target="_blank">
+                  <div class="lede-button lb2 animated fadeInLeft">
+                    <div class="lede-button-text">Chord Paper</div>
+                  </div>
+                </a>
+              </div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/Project0.gif)"></div>
+              </div>
+            </div>
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:#CFD8DC">Cryptocurrency</div>
+                <div class="text-2-ed animated fadeInDown">ETH-ALGO Exchange Server</div>
+                <div class="text-3-ed animated fadeInDown" style="color:#CFD8DC">Centralized exchange server to exchange
+                  ALGO and ETH<br><br>Built with Python, Flask, algosdk, web3
+                </div>
+              </div>
+              <div class="lede-background" style="background-color:#263238"><a id="workAnchor" name="work"></div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/Project1.png)"></div>
+              </div>
+            </div>
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:#B2DFDB">React App</div>
+                <div class="text-2-ed animated fadeInDown">Trip Assist</div>
+                <div class="text-3-ed animated fadeInDown" style="color:#B2DFDB">Full-stack web application providing
+                  recommendations of US cities to travel to given a set of user-input
+                  preferences (budget, distance, covid risk, etc)<br><br>Built with NodeJS/Express, React, Python,
+                  AWS/MySQL Workbench
+                </div>
+              </div>
+              <div class="lede-background" style="background-color:#004D40">
+                <a href="https://vimeo.com/640518549" target="_blank">
+                  <div class="lede-button lb3 animated fadeInLeft">
+                    <div class="lede-button-text">Demo</div>
+                  </div>
+                </a>
+              </div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/Project2.gif)"></div>
+              </div>
+            </div>
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:#B3E5FC">Data Analysis</div>
+                <div class="text-2-ed animated fadeInDown">Philadelphia Parking Data Analysis</div>
+                <div class="text-3-ed animated fadeInDown" style="color:#B3E5FC">Designed and implemented n-tier
+                  architecture to parse and analyze parking violation data from Open-
+                  DataPhilly<br><br>Built with Java
+                </div>
+              </div>
+              <div class="lede-background" style="background-color:#01579B;"></div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/Project3.gif)"></div>
+              </div>
+            </div>
           </div>
-          <div class="lede-image-container">
-            <div class="lede-image animated fadeIn" style="background-image:url(../images/Project4.png)"></div>
-          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
         </div>
-        </a>
       </div>
     </div>
-    <hr style="border: none; border-bottom: 1px solid black;">
+  </div>
+  </div>
+  <!-- Startups -->
+  <a id="startupAnchor"></a>
+  <div class="page" id="startups">
+    <div class="clearfix">
+      <div class="all-work" id="work-frame">
+        <div class="carousel-container swiper">
+          <div class="carousel-slider swiper-wrapper">
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color:white">Web3 App</div>
+                <div class="text-2-ed animated fadeInDown">Divercefi</div>
+                <div class="text-3-ed animated fadeInDown" style="color:white; font-weight:300">An
+                  investment management platform encompassing all asset types and enabling social investing by
+                  connecting with expert portfolio managers,
+                  replicating their strategies, and sharing your own portfolios <br><br>Partnered with Trenity, Cede
+                  Labs
+                </div>
+              </div>
+              <div class="lede-background" style="background-color: #0663B5">
+                <a href="https://divercefi.com/" target="_blank">
+                  <div class="lede-button lb5 animated fadeInLeft">
+                    <div class="lede-button-text">App</div>
+                  </div>
+                </a>
+              </div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/divercefi.jpg)"></div>
+              </div>
+            </div>
+            <div class="lede-parent swiper-slide">
+              <div class="bg-editable">
+                <div class="text-1-ed animated fadeInDown" style="color: black;">Ecomm Marketplace</div>
+                <div class="text-2-ed animated fadeInDown" style="color: black;">ERDAECO</div>
+                <div class="text-3-ed animated fadeInDown" style="color: black">A marketplace for all sustainable
+                  fashion brands with an emphasis on eco-materials, carbon emissions, water conservation, deforestation,
+                  animal rights and fair labor
+                </div>
+              </div>
+              <div class="lede-background" style="background-color: #E7DAD0">
+                <a>
+                  <div class="lede-button lb6 animated fadeInLeft">
+                    <div class="lede-button-text">In progress</div>
+                  </div>
+                </a>
+              </div>
+              <div class="lede-image-container">
+                <div class="lede-image animated fadeIn" style="background-image:url(../images/erda.png)"></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <hr style="border: none; border-bottom: 1px solid black;">
   </div>
   <div class="copyright">© 2023 Ervin Gan</div>
   </div>
@@ -240,6 +313,22 @@
   <link href="./css/particle-support.css" rel="stylesheet" type="text/css">
   <script src="./js/particles.min.js"></script>
   <script src="./js/particle-support.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".carousel-container", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   <script type="application/ld+json">
          { "@context" : "http://schema.org",
             "@type" : "Person",
@@ -247,7 +336,8 @@
             "url" : "https://ervgan.github.io",
             "sameAs" : [ "www.linkedin.com/in/ervingan" ]
          }
-      </script>
+  </script>
+
 </body>
 
 </html>
