@@ -6,13 +6,31 @@
 
 @media (max-width: 1023px) {
   .all-work {
-    height: 110%;
+    height: 130%;
   }
 }
 
 @media (max-width: 900px) {
   .all-work {
     height: 100%;
+  }
+}
+
+@media (max-height: 595px) {
+  .all-work {
+    height: 120%;
+  }
+}
+
+@media (max-height: 497px) {
+  .all-work {
+    height: 130%;
+  }
+}
+
+@media (max-height: 446px) {
+  .all-work {
+    height: 150%;
   }
 }
 
