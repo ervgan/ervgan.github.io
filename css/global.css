@@ -434,4 +434,74 @@ right: 0;
     grid-column-end: span 1;
 }
 
+/* About Me section */
 
+#contact::before {
+	content: 'Get in touch!';
+}
+
+.contact-container{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-inputs{
+  width: 450px;
+  height: 50px;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+  border-width: 1px;
+  border-color: black;
+}
+
+.contact-container textarea{
+  height: 140px;
+  padding-top:15px;
+  border-radius: 20px;
+}
+.contact-inputs:focus{
+  border: 2px solid black;
+}
+
+.contact-inputs::placeholder{
+  font-family: nitti, 'open sans', sans-serif;
+  color: #a9a9a9;
+}
+
+.contact-left button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  color: #fff;
+  gap: 10px;
+  border-radius: 50px;
+  background: black;
+  font-family: nitti, 'open sans', sans-serif;
+  cursor: pointer;
+}
+
+.contact-left button:hover {
+  background: #fff;
+  color: black;
+}
+
+.intro-text {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.intro-text p {
+  font-size: 16px;
+  color: #333;
+}

@@ -34,14 +34,19 @@
         <div class="nav-text">About me</div>
       </div>
     </a>
+    <a class="navlink" href="#startupAnchor">
+      <div class="nav-dot animated fadeInRight">
+        <div class="nav-text">Startups</div>
+      </div>
+    </a>
     <a class="navlink" href="#workAnchor">
       <div class="nav-dot animated fadeInRight">
         <div class="nav-text">Projects</div>
       </div>
     </a>
-    <a class="navlink" href="#startupAnchor">
+    <a class="navlink" href="#contactAnchor">
       <div class="nav-dot animated fadeInRight">
-        <div class="nav-text">Startups</div>
+        <div class="nav-text">Contact</div>
       </div>
     </a>
   </div>
@@ -302,9 +307,29 @@
     </div>
   </div>
   </div>
+  </div>
+
+  <a id="contactAnchor"></a>
+  <div class="page" id="contact">
+    <div class="clearfix">
+      <div class='contact-container'>
+        <div class="intro-text">
+          <p>Please get in touch for collaboration, consulting, mentoring or advice on personal growth, career guidance,
+            personal finance, and software development :)</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <input type="hidden" name="access_key" value="ae0b1a2b-66cc-489d-adb1-dabdd96dfa2d">
+          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+          <div class="h-captcha" data-captcha="true"></div>
+          <button type='submit'>SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <hr style="border: none; border-bottom: 1px solid black;">
-  </div>
   <div class="copyright">© 2023 Ervin Gan</div>
   </div>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
