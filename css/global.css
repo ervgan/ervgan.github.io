@@ -194,11 +194,11 @@ right: 0;
 /* Copyright */
 
 .copyright {
-	position: absolute;
+  position: absolute;
 	text-align: right;
+  float: right;
 	right: 100px;
 	bottom: 0;
-	float: right;
 	margin-left: 50%;
 	left: -150px;
 	font-size: 15px;
@@ -207,6 +207,15 @@ right: 0;
 	font-family: nitti, 'open sans', sans-serif;
 	color: rgba(0, 0, 0, .5);
 }
+
+.separator {
+	background-color: #fff;
+	padding: 20px;
+	font-size: 18px;
+	position: relative;
+	border-top: 1px solid black;
+}
+
 
 /* Particles */
 
@@ -441,10 +450,11 @@ right: 0;
 }
 
 .contact-container{
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 .contact-left{
@@ -454,7 +464,7 @@ right: 0;
 }
 
 .contact-inputs{
-  width: 450px;
+  width: 400px;
   height: 50px;
   padding-left: 25px;
   font-weight: 500;
@@ -499,6 +509,7 @@ right: 0;
 .intro-text {
   flex: 1;
   margin-right: 50px;
+  margin-top: -30px;
 }
 
 .intro-text p {
